@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane fx:id="primarySp" dividerPositions="0.1652754590984975" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Butter">
+  <items>
+    <AnchorPane fx:id="leftPane" maxWidth="200.0" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="200.0">
+         <children>
+            <TextField fx:id="import_addr" layoutX="21.0" layoutY="40.0" />
+            <Text layoutX="21.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Import mesh" />
+            <Text layoutX="21.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Slice to file" />
+            <TextField fx:id="export_addr" layoutX="21.0" layoutY="160.0" />
+            <TextField fx:id="config_addr" layoutX="21.0" layoutY="100.0" />
+            <Text layoutX="21.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select config file" />
+         </children></AnchorPane>
+    <AnchorPane fx:id="rightPane" maxHeight="900.0" maxWidth="1000.0" minHeight="900.0" minWidth="1000.0" prefHeight="900.0" prefWidth="1000.0" />
+  </items>
+</SplitPane>
